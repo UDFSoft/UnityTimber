@@ -2,27 +2,27 @@
 A lightweight, extensible logging library for Unity inspired by Android's Timber.
 
 ## Features
-Simple static API for logging: Timber.D(), Timber.I(), Timber.W(), Timber.E(), Timber.V()
+* Simple static API for logging: Timber.D(), Timber.I(), Timber.W(), Timber.E(), Timber.V()
 
-Supports multiple log levels: Verbose, Debug, Info, Warn, Error, Assert, WTF
+* Supports multiple log levels: Verbose, Debug, Info, Warn, Error, Assert, WTF
 
-Automatic tag generation from calling class and method (ClassName.MethodName)
+* Automatic tag generation from calling class and method (ClassName.MethodName)
 
-Custom tags with fluent API: Timber.Tag("MyTag").D("message")
+* Custom tags with fluent API: Timber.Tag("MyTag").D("message")
 
-Pluggable "trees" to direct logs:
+* Pluggable "trees" to direct logs:
 
-DebugTree: logs to Unity Console
+    * DebugTree: logs to Unity Console
 
-FileTree: logs to a file
+    * FileTree: logs to a file
 
-NetworkTree: sends logs to a server endpoint (via HTTP POST)
+    * NetworkTree: sends logs to a server endpoint (via HTTP POST)
 
-Minimum log level filtering per tree
+* Minimum log level filtering per tree
 
-Exception support in error logs
+* Exception support in error logs
 
-Thread-safe tagging using [ThreadStatic]
+* Thread-safe tagging using [ThreadStatic]
 
 ## Installation
 Clone or download this repository
