@@ -27,7 +27,7 @@ A lightweight, extensible logging library for Unity inspired by Android's Timber
 ## Installation
 Clone or download this repository
 
-Copy the TimberLib folder to your Unity project's Assets/Scripts folder
+Copy the UTimber folder to your Unity project's Assets/Scripts folder
 
 Or import the provided .unitypackage (if available)
 
@@ -36,7 +36,6 @@ Setup
 Plant one or more trees during initialization (e.g. in a bootstrap script):
 
 ```csharp
-using TimberLib;
 
 void Awake()
 {
