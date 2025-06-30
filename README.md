@@ -27,9 +27,7 @@ A lightweight, extensible logging library for Unity inspired by Android's Timber
 ## Installation
 Clone or download this repository
 
-Copy the UTimber folder to your Unity project's Assets/Scripts folder
-
-Or import the provided .unitypackage (if available)
+Copy the UTimber folder to your Unity project's Assets/Scripts folder.
 
 ## Usage
 Setup
